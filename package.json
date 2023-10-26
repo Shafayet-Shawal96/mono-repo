@@ -1,0 +1,16 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-sql": "^0.15.1"
+  },
+  "dependencies": {
+    "turbo": "1.10.14"
+  }
+}
